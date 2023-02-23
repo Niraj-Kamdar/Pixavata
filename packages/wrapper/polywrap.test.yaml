@@ -1,10 +1,44 @@
 name: template-wasm-rs
 format: 0.1.0
-validation: "./workflows/validator.cue"
 jobs:
-  sampleMethod:
+  render_male:
     steps:
       - uri: fs/build
-        method: sampleMethod
+        method: render_male
         args:
-          arg: "polywrap"
+          skin_color: 1
+          hair_color: 2
+          eyes_color: 3
+          mouth_color: 1
+          glasses_color: 2
+          clothes_color: 3
+          hat_color: 1
+          mood: 2
+          mustache: 3
+          glasses: 1
+          hair: 2
+          hat: 3
+          eyes: 1
+          eyebrows: 2
+          clothes: 3
+  render_female:
+    steps:
+      - uri: fs/build
+        method: render_female
+        args:
+          skin_color: 1
+          hair_color: 2
+          eyes_color: 3
+          mouth_color: 1
+          accessories_color: 2
+          glasses_color: 2
+          clothes_color: 3
+          hat_color: 1
+          mood: 2
+          accessories: 3
+          glasses: 1
+          hair: 2
+          hat: 3
+          eyes: 1
+          eyebrows: 2
+          clothes: 3

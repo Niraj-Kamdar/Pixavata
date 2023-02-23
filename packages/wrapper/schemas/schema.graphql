@@ -1,0 +1,40 @@
+#import * from "./common.graphql"
+
+type Module {
+    render_male(
+        skin_color: SkinColor!
+        hair_color: HairColor!
+        eyes_color: EyesColor!
+        mouth_color: MaleMouthColor!
+        glasses_color: GlassesColor!
+        clothes_color: MaleClothesColor!
+        hat_color: MaleHatColor!
+        mood: Mood!
+        mustache: Int!
+        glasses: Int!
+        hair: Int!
+        hat: Int!
+        eyes: Int!
+        eyebrows: Int!
+        clothes: Int!
+    ): String! #svg
+
+    render_female(
+        skin_color: SkinColor!
+        hair_color: HairColor!
+        eyes_color: EyesColor!
+        accessories_color: FemaleAccessoriesColor!
+        mouth_color: FemaleMouthColor!
+        glasses_color: GlassesColor!
+        clothes_color: FemaleClothesColor!
+        hat_color: FemaleHatColor!
+        mood: Mood!
+        accessories: Int!
+        glasses: Int!
+        hair: Int!
+        hat: Int!
+        eyes: Int!
+        eyebrows: Int!
+        clothes: Int!
+    ): String! #svg
+}

@@ -1,0 +1,57 @@
+#import * from "./male.graphql"
+
+enum SkinColor {
+    Pale
+    White
+    Crayola
+    Burlywood
+    Tanned
+    Brown
+    DarkBrown
+    Black
+}
+
+enum HairColor {
+    Black
+    RaisinBlack
+    DeepTaupe
+    Tuscany
+    PaleTaupe
+    MetallicBronze
+    Brown
+    Brandy
+    CoconutBrown
+    RoyalBrown
+    Cola
+    OliveDrabCamouflage
+    DarkPuce
+    PurpleTaupe
+    Liver
+    Beaver
+    Chamoisee
+}
+
+enum EyesColor {
+    Rhythm
+    Gray
+    SlateGray
+    Steel
+    SteelTeal
+}
+
+enum GlassesColor {
+    Axolotl
+    DarkBlue
+    BrownChocolate
+    LightTangelo
+    RedPurple
+    Black
+    Charcoal
+    Quartz
+}
+
+enum Mood {
+  Sad
+  Happy
+  Surprised
+}

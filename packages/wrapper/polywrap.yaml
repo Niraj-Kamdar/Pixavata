@@ -4,8 +4,6 @@ project:
   type: wasm/rust
 source:
   module: ./Cargo.toml
-  schema: ./src/schema.graphql
+  schema: ./schemas/schema.graphql
 extensions:
   build: ./polywrap.build.yaml
-  meta: ./polywrap.meta.yaml
-  deploy: ./polywrap.deploy.yaml

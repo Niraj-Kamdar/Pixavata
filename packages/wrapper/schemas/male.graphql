@@ -1,0 +1,32 @@
+#import * from "./female.graphql"
+
+enum MaleMouthColor {
+  SoftOrange
+  FortunePrize
+  TintofEarth
+}
+
+enum MaleClothesColor {
+  MagnesiaBay
+  ForestMaid
+  MagicalMerlin
+  LostinSpace
+  JetskiRace
+  ShirtBlue
+  IbizaBlue
+  Virtuoso
+  WintergreenShadow
+  GlowingFirelight
+  GentleDill
+  CedarGlen
+  SweetChamomile
+}
+
+enum MaleHatColor {
+  FogofWar
+  BlackSlug
+  DappleGrey
+  DoverStraits
+  GreenValley
+  BuchelCherry
+}

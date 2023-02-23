@@ -1,0 +1,41 @@
+enum FemaleAccessoriesColor {
+  Chanterelle
+  Gold
+  YellowJasmine
+  Utepils
+  Pinball
+  DhusarGrey
+}
+
+enum FemaleMouthColor {
+  FortunePrize
+  TintofEarth
+  CanyonClay
+  SwissChard
+  HowlingPink
+  HotFlaminChilli
+}
+
+enum FemaleClothesColor {
+  UtahCrimson
+  FutureHair
+  BrightCerulean
+  SeaNettle
+  BrightBubble
+  Blood
+  RedDoor
+  NicotineGold
+  MintIceCream
+  TransparentYellow
+  FlirtySalmon
+  Nacho
+  PharaohJade
+}
+
+enum FemaleHatColor {
+  IbisRose
+  LapisLazuli
+  BuchelCherry
+  MythicalForest
+  BrightEggplant
+}
